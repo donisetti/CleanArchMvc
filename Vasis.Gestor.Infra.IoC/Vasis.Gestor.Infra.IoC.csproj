@@ -16,9 +16,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\CleanArchMvc.Application\Vasis.Gestor.Application.csproj" />
-		<ProjectReference Include="..\CleanArchMvc.Domain\Vais.Gestor.Domain.csproj" />
-		<ProjectReference Include="..\CleanArchMvc.Infra.Data\Vasis.Gestor.Infra.Data.csproj" />
+
+		<ProjectReference Include="..\Vasis.Gestor.Application\Vasis.Gestor.Application.csproj" />
+		<ProjectReference Include="..\Vasis.Gestor.Domain\Vasis.Gestor.Domain.csproj" />
+		<ProjectReference Include="..\Vasis.Gestor.Infra.Data\Vasis.Gestor.Infra.Data.csproj" />
 	</ItemGroup>
 
 </Project>

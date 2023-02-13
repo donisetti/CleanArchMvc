@@ -12,7 +12,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\CleanArchMvc.Domain\Vais.Gestor.Domain.csproj" />
+		<ProjectReference Include="..\Vasis.Gestor.Domain\Vasis.Gestor.Domain.csproj" />
 	</ItemGroup>
 
 </Project>

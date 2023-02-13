@@ -7,11 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\CleanArchMvc.Infra.IoC\Vasis.Gestor.Infra.IoC.csproj" />
+    <ProjectReference Include="..\Vasis.Gestor.Domain\Vasis.Gestor.Domain.csproj" />
+    <ProjectReference Include="..\Vasis.Gestor.Infra.IoC\Vasis.Gestor.Infra.IoC.csproj" />
   </ItemGroup>
 
 </Project>
