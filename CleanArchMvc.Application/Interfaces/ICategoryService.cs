@@ -1,6 +1,6 @@
-﻿using CleanArchMvc.Application.DTOs;
+﻿using Vasis.Gestor.Application.DTOs;
 
-namespace CleanArchMvc.Application.Interfaces;
+namespace Vasis.Gestor.Application.Interfaces;
 
 public interface ICategoryService
 {

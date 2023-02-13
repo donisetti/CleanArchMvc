@@ -1,4 +1,4 @@
-﻿namespace CleanArchMvc.Domain.Entities;
+﻿namespace Vasis.Gestor.Domain.Entities;
 
 public abstract class Entity
 {

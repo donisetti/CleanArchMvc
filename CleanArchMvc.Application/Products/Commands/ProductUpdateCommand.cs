@@ -1,4 +1,4 @@
-﻿namespace CleanArchMvc.Application.Products.Commands;
+﻿namespace Vasis.Gestor.Application.Products.Commands;
 
 public class ProductUpdateCommand : ProductCommand
 {

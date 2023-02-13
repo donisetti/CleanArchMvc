@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using CleanArchMvc.Application.DTOs;
-using CleanArchMvc.Application.Interfaces;
-using CleanArchMvc.Domain.Entities;
-using CleanArchMvc.Domain.Interfaces;
+using Vasis.Gestor.Application.DTOs;
+using Vasis.Gestor.Application.Interfaces;
+using Vasis.Gestor.Domain.Entities;
+using Vasis.Gestor.Domain.Interfaces;
 
-namespace CleanArchMvc.Application.Services;
+namespace Vasis.Gestor.Application.Services;
 
 public class CategoryService : ICategoryService
 {

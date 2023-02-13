@@ -1,5 +1,5 @@
-using CleanArchMvc.Domain.Account;
-using CleanArchMvc.Infra.IoC;
+using Vasis.Gestor.Domain.Account;
+using Vasis.Gestor.Infra.IoC;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -43,7 +43,8 @@ void SeedUserRoles(IApplicationBuilder app)
     {
         var seed = serviceScope.ServiceProvider
                                .GetService<ISeedUserRoleInitial>();
-        seed.SeedUsers();
+       
         seed.SeedRoles();
+        seed.SeedUsers();
     }
 }

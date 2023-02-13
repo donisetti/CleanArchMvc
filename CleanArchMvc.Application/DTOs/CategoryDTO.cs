@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CleanArchMvc.Application.DTOs;
+namespace Vasis.Gestor.Application.DTOs;
 
 public class CategoryDTO
 {

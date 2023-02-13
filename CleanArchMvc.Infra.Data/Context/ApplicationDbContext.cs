@@ -1,9 +1,9 @@
-﻿using CleanArchMvc.Domain.Entities;
-using CleanArchMvc.Infra.Data.Identity;
+﻿using Vasis.Gestor.Domain.Entities;
+using Vasis.Gestor.Infra.Data.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace CleanArchMvc.Infra.Data.Context;
+namespace Vasis.Gestor.Infra.Data.Context;
 
 public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
 {

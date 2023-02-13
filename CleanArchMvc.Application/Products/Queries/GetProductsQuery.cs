@@ -1,8 +1,8 @@
-﻿using CleanArchMvc.Domain.Entities;
+﻿using Vasis.Gestor.Domain.Entities;
 using MediatR;
 using System.Collections.Generic;
 
-namespace CleanArchMvc.Application.Products.Queries;
+namespace Vasis.Gestor.Application.Products.Queries;
 
 public class GetProductsQuery : IRequest<IEnumerable<Product>>
 {

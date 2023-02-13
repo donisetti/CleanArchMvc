@@ -1,7 +1,7 @@
-﻿using CleanArchMvc.Domain.Entities;
+﻿using Vasis.Gestor.Domain.Entities;
 using MediatR;
 
-namespace CleanArchMvc.Application.Products.Commands;
+namespace Vasis.Gestor.Application.Products.Commands;
 
 public abstract class ProductCommand : IRequest<Product>
 {

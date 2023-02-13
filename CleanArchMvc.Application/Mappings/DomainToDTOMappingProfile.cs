@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using CleanArchMvc.Application.DTOs;
-using CleanArchMvc.Domain.Entities;
+using Vasis.Gestor.Application.DTOs;
+using Vasis.Gestor.Domain.Entities;
 
-namespace CleanArchMvc.Application.Mappings;
+namespace Vasis.Gestor.Application.Mappings;
 
 public class DomainToDTOMappingProfile : Profile
 {

@@ -1,9 +1,9 @@
-﻿using CleanArchMvc.Domain.Account;
-using CleanArchMvc.WebUI.ViewModels;
+﻿using Vasis.Gestor.Domain.Account;
+using Vasis.Gestor.WebUI.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace CleanArchMvc.WebUI.Controllers;
+namespace Vasis.Gestor.WebUI.Controllers;
 
 public class AccountController : Controller
 {

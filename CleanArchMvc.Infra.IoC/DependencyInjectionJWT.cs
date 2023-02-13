@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-namespace CleanArchMvc.Infra.IoC;
+namespace Vasis.Gestor.Infra.IoC;
 
 public static class DependencyInjectionJWT
 {

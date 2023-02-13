@@ -1,9 +1,9 @@
-﻿using CleanArchMvc.Domain.Entities;
-using CleanArchMvc.Domain.Interfaces;
-using CleanArchMvc.Infra.Data.Context;
+﻿using Vasis.Gestor.Domain.Entities;
+using Vasis.Gestor.Domain.Interfaces;
+using Vasis.Gestor.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 
-namespace CleanArchMvc.Infra.Data.Repositories;
+namespace Vasis.Gestor.Infra.Data.Repositories;
 
 public class ProductRepository : IProductRepository
 {

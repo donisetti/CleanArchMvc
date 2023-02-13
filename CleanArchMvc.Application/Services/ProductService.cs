@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
-using CleanArchMvc.Application.DTOs;
-using CleanArchMvc.Application.Interfaces;
-using CleanArchMvc.Application.Products.Commands;
-using CleanArchMvc.Application.Products.Queries;
+using Vasis.Gestor.Application.DTOs;
+using Vasis.Gestor.Application.Interfaces;
+using Vasis.Gestor.Application.Products.Commands;
+using Vasis.Gestor.Application.Products.Queries;
 using MediatR;
 
-namespace CleanArchMvc.Application.Services;
+namespace Vasis.Gestor.Application.Services;
 
 public class ProductService : IProductService
 {

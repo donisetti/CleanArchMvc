@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "CleanArchMvc.WebUI": {
+    "Vasis.Gestor.WebUI": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

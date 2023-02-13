@@ -1,10 +1,10 @@
-﻿using CleanArchMvc.Domain.Entities;
+﻿using Vasis.Gestor.Domain.Entities;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
-namespace CleanArchMvc.Application.DTOs;
+namespace Vasis.Gestor.Application.DTOs;
 
 public class ProductDTO
 {

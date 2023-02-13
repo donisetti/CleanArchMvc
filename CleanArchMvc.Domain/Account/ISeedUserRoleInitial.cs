@@ -1,4 +1,4 @@
-﻿namespace CleanArchMvc.Domain.Account;
+﻿namespace Vasis.Gestor.Domain.Account;
 
 public interface ISeedUserRoleInitial
 {

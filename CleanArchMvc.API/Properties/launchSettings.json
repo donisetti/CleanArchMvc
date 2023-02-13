@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "CleanArchMvc.API": {
+    "Vasis.Gestor.API": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

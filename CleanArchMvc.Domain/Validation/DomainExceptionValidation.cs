@@ -1,4 +1,4 @@
-﻿namespace CleanArchMvc.Domain.Validation;
+﻿namespace Vasis.Gestor.Domain.Validation;
 
 public class DomainExceptionValidation : Exception
 {

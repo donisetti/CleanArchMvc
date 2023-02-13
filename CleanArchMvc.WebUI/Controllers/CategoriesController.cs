@@ -1,9 +1,9 @@
-﻿using CleanArchMvc.Application.DTOs;
-using CleanArchMvc.Application.Interfaces;
+﻿using Vasis.Gestor.Application.DTOs;
+using Vasis.Gestor.Application.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CleanArchMvc.WebUI.Controllers;
+namespace Vasis.Gestor.WebUI.Controllers;
 
 [Authorize]
 public class CategoriesController : Controller

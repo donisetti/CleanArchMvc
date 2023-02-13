@@ -1,8 +1,8 @@
-﻿using CleanArchMvc.Domain.Entities;
+﻿using Vasis.Gestor.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace CleanArchMvc.Infra.Data.EntitiesConfiguration;
+namespace Vasis.Gestor.Infra.Data.EntitiesConfiguration;
 
 public class CategoryConfiguration : IEntityTypeConfiguration<Category>
 {

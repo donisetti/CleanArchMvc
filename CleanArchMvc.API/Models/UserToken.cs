@@ -1,4 +1,4 @@
-﻿namespace CleanArchMvc.API.Models;
+﻿namespace Vasis.Gestor.API.Models;
 
 public class UserToken
 {

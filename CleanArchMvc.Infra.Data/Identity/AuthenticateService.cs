@@ -1,7 +1,7 @@
-﻿using CleanArchMvc.Domain.Account;
+﻿using Vasis.Gestor.Domain.Account;
 using Microsoft.AspNetCore.Identity;
 
-namespace CleanArchMvc.Infra.Data.Identity;
+namespace Vasis.Gestor.Infra.Data.Identity;
 
 public class AuthenticateService : IAuthenticate
 {

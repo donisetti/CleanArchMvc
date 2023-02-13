@@ -1,8 +1,8 @@
-using CleanArchMvc.Domain.Entities;
+using Vasis.Gestor.Domain.Entities;
 using FluentAssertions;
 using Xunit;
 
-namespace CleanArchMvc.Domain.Tests;
+namespace Vasis.Gestor.Domain.Tests;
 
 public class CategoryUnitTest1
 {
@@ -11,7 +11,7 @@ public class CategoryUnitTest1
     {
         Action action = () => new Category(1, "Category Name ");
         action.Should()
-             .NotThrow<CleanArchMvc.Domain.Validation.DomainExceptionValidation>();
+             .NotThrow<Vasis.Gestor.Domain.Validation.DomainExceptionValidation>();
     }
 
     [Fact]
@@ -19,7 +19,7 @@ public class CategoryUnitTest1
     {
         Action action = () => new Category(-1, "Category Name ");
         action.Should()
-            .Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
+            .Throw<Vasis.Gestor.Domain.Validation.DomainExceptionValidation>()
              .WithMessage("Invalid Id value.");
     }
 
@@ -28,7 +28,7 @@ public class CategoryUnitTest1
     {
         Action action = () => new Category(1, "Ca");
         action.Should()
-            .Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
+            .Throw<Vasis.Gestor.Domain.Validation.DomainExceptionValidation>()
                .WithMessage("Invalid name, too short, minimum 3 characters");
     }
 
@@ -37,7 +37,7 @@ public class CategoryUnitTest1
     {
         Action action = () => new Category(1, "");
         action.Should()
-            .Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
+            .Throw<Vasis.Gestor.Domain.Validation.DomainExceptionValidation>()
             .WithMessage("Invalid name.Name is required");
     }
 
@@ -46,6 +46,6 @@ public class CategoryUnitTest1
     {
         Action action = () => new Category(1, null);
         action.Should()
-            .Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>();
+            .Throw<Vasis.Gestor.Domain.Validation.DomainExceptionValidation>();
     }
 }

@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using CleanArchMvc.Application.DTOs;
-using CleanArchMvc.Application.Products.Commands;
+using Vasis.Gestor.Application.DTOs;
+using Vasis.Gestor.Application.Products.Commands;
 
-namespace CleanArchMvc.Application.Mappings;
+namespace Vasis.Gestor.Application.Mappings;
 
 public class DTOToCommandMappingProfile : Profile
 {

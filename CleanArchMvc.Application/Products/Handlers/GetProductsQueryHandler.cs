@@ -1,9 +1,9 @@
-﻿using CleanArchMvc.Application.Products.Queries;
-using CleanArchMvc.Domain.Entities;
-using CleanArchMvc.Domain.Interfaces;
+﻿using Vasis.Gestor.Application.Products.Queries;
+using Vasis.Gestor.Domain.Entities;
+using Vasis.Gestor.Domain.Interfaces;
 using MediatR;
 
-namespace CleanArchMvc.Application.Products.Handlers;
+namespace Vasis.Gestor.Application.Products.Handlers;
 
 public class GetProductsQueryHandler : IRequestHandler<GetProductsQuery, IEnumerable<Product>>
 {

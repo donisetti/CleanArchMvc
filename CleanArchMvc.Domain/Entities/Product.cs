@@ -1,6 +1,6 @@
-﻿using CleanArchMvc.Domain.Validation;
+﻿using Vasis.Gestor.Domain.Validation;
 
-namespace CleanArchMvc.Domain.Entities;
+namespace Vasis.Gestor.Domain.Entities;
 
 public sealed class Product : Entity
 {

@@ -1,9 +1,9 @@
-﻿using CleanArchMvc.Application.DTOs;
-using CleanArchMvc.Application.Interfaces;
+﻿using Vasis.Gestor.Application.DTOs;
+using Vasis.Gestor.Application.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CleanArchMvc.API.Controllers;
+namespace Vasis.Gestor.API.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]

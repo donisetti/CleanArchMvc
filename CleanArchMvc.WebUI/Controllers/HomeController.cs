@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace CleanArchMvc.WebUI.Controllers;
+namespace Vasis.Gestor.WebUI.Controllers;
 
 public class HomeController : Controller
 {

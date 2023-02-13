@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 
-namespace CleanArchMvc.Infra.IoC;
+namespace Vasis.Gestor.Infra.IoC;
 
 public static class DependencyInjectionSwagger
 {
@@ -9,7 +9,7 @@ public static class DependencyInjectionSwagger
     {
         services.AddSwaggerGen(c =>
         {
-            c.SwaggerDoc("v1", new OpenApiInfo { Title = "CleanArchMvc.API", Version = "v1" });
+            c.SwaggerDoc("v1", new OpenApiInfo { Title = "Vasis.Gestor.API", Version = "v1" });
 
             c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
             {
