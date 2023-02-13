@@ -17,6 +17,9 @@ body {
   margin-bottom: 60px;
 }
 
+.Login-Acesso {
+    max-width:  500px;
+}
 
 .direita {
     float: right;
