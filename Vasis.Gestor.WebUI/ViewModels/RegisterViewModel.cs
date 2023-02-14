@@ -10,11 +10,12 @@ namespace Vasis.Gestor.WebUI.ViewModels
 
         [Required]
         [DataType(DataType.Password)]
+        [Display(Name = "Senha")]
         public string Password { get; set; }
 
         [DataType(DataType.Password)]
-        [Display(Name = "Confirm password")]
-        [Compare("Password", ErrorMessage = "Passwords don´t match")]
+        [Display(Name = "Confirmar senha")]
+        [Compare("Password", ErrorMessage = "Confirmação não confere")]
         public string ConfirmPassword { get; set; }
     }
 }
