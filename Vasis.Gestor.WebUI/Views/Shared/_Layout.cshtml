@@ -36,9 +36,9 @@
                                 Cadastro
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Empresas</a></li>
+                                <li><a class="dropdown-item"  asp-area="" asp-controller="Empresas" asp-action="Index">Empresas</a></li>
                                 <li><a class="dropdown-item" href="#">Planos Assinatura</a></li>
-                                <li><a class="dropdown-item" href="#">Vendedores</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Vendedores" asp-action="Index">Vendedores</a></li>
 
 
                             </ul>
@@ -68,7 +68,17 @@
                             </ul>
                         </li>
 
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                POC Prova Conceito
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Categorias</a></li>
+                                <li><a class="dropdown-item" href="#">Produtos</a></li>
+                                
 
+                            </ul>
+                        </li>
 
                     </ul>
                     <ul class="navbar-nav ml-auto">
